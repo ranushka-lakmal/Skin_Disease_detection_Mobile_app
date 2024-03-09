@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   static const Color accentColor = Color(0xFF0A4A0E);
+  static const Color myBlueColor = Color(0xFF1A0062);
 
   static const MaterialColor primaryColor = MaterialColor(
     0xFF4B834E,
@@ -25,12 +26,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Decease Finder',
+      title: 'DermAssist',
       theme: ThemeData(
         primaryColor: const Color(0xFF4B834E),
         primaryColorDark: const Color(0xFF0A4A0E),
       ),
-      home: const SplashScreen(title: 'Decease Finder'),
+      home: const SplashScreen(title: 'Skin Disease Detection'),
     );
   }
 }

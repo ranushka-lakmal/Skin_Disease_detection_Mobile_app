@@ -51,9 +51,9 @@ class _HomeState extends State<Home> {
               ),
               const Positioned(
                   top: 100,
-                  left: 20,
+                  right: 20,
                   child: Text(
-                    "Hello , there...",
+                    "Hello , there..",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 25,
@@ -61,9 +61,18 @@ class _HomeState extends State<Home> {
                   )),
               const Positioned(
                   top: 140,
-                  left: 20,
+                  right: 5,
                   child: Text(
-                    "Let's Scan \nyour skin",
+                    "Let's Scan",
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 40,
+                        fontWeight: FontWeight.bold),
+                  )),const Positioned(
+                  top: 195,
+                  right: 30,
+                  child: Text(
+                    "your skin",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 35,
@@ -133,23 +142,23 @@ class _HomeState extends State<Home> {
                                 ),
                                 Image.asset(
                                   'assets/camera-scan.png',
-                                  scale: 2.5,
+                                  scale:2,
                                 ),
                                 const SizedBox(
-                                  width: 10,
+                                  width: 50,
                                 ),
                                 const Expanded(
                                   child: Text(
                                     "Scan Skin",
                                     style: TextStyle(
-                                        color: MyApp.primaryColor,
-                                        fontSize: 20,
+                                        color: MyApp.myBlueColor,
+                                        fontSize: 25,
                                         fontWeight: FontWeight.bold),
                                   ),
                                 ),
                                 Image.asset(
                                   'assets/arrow-right.png',
-                                  scale: 2.5,
+                                  scale: 3.5,
                                 ),
                                 const SizedBox(
                                   width: 20,
@@ -168,7 +177,7 @@ class _HomeState extends State<Home> {
                               Text(
                                 "About the deceases",
                                 style: TextStyle(
-                                    color: MyApp.primaryColor,
+                                    color: MyApp.myBlueColor,
                                     fontSize: 22,
                                     fontWeight: FontWeight.bold),
                               ),
@@ -220,11 +229,11 @@ class _HomeState extends State<Home> {
                                   width: 20,
                                 ),
                                 Image.asset(
-                                  'assets/details-icon.png',
+                                  'assets/support.png',
                                   scale: 2.5,
                                 ),
                                 const SizedBox(
-                                  width: 10,
+                                  width: 28,
                                 ),
                                 Expanded(
                                   child: Column(
@@ -236,7 +245,7 @@ class _HomeState extends State<Home> {
                                         "   About Us. ",
                                         textAlign: TextAlign.start,
                                         style: TextStyle(
-                                            color: MyApp.primaryColor,
+                                            color: MyApp.myBlueColor,
                                             fontSize: 14,
                                             fontWeight: FontWeight.bold),
                                       ),
@@ -295,7 +304,7 @@ class _HomeState extends State<Home> {
                                     Text(
                                       "New Skin Decease identified ",
                                       style: TextStyle(
-                                          color: MyApp.primaryColor,
+                                          color: MyApp.myBlueColor,
                                           fontSize: 14,
                                           fontWeight: FontWeight.bold),
                                     ),
@@ -360,7 +369,7 @@ class _HomeState extends State<Home> {
                                     Text(
                                       "New Skin Decease identified ",
                                       style: TextStyle(
-                                          color: MyApp.primaryColor,
+                                          color: MyApp.myBlueColor,
                                           fontSize: 14,
                                           fontWeight: FontWeight.bold),
                                     ),

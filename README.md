@@ -1,6 +1,6 @@
 # deceasefinder
 
-decease finder application by yasiru
+DermAssist Skin Disease finder application by Ranushka Lakmal Sankalpa
 
 ## Getting Started
 
