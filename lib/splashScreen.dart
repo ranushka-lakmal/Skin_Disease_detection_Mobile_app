@@ -56,7 +56,7 @@ class _SplashScreenState extends State<SplashScreen> {
             ),
           ),
           const Card(
-            child: Text("Decease Finder",
+            child: Text("DermAssist",
               style: TextStyle(
                   color: MyApp.primaryColor,
                   fontSize: 25,

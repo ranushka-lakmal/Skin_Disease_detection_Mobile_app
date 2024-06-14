@@ -1,0 +1,3 @@
+Atopic_Dermatitis_stage_1
+Atopic_Dermatitis_stage_2
+Atopic_Dermatitis_stage_3
