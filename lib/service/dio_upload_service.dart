@@ -11,7 +11,7 @@ class DioUploadService {
    // var response = await Dio().post('http://44.204.54.3:8080/api/predict', data: formData);
 
 
-    var response = await Dio().post('http://172.20.10.11:8080/predict', data: formData);
+    var response = await Dio().post('http://13.250.103.164:4999/predict', data: formData);
     return response.data;
   }
 

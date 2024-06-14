@@ -99,26 +99,26 @@ class _TakePhotoState extends State<TakePhoto> {
     String title = '',
     String message = '',
   }) {
-    String DTitle = message.split("Tomato___")[1].split("}")[0];
+    String DTitle = message.split("Atopic_Dermatitis_stage_1")[1].split("}")[0];
     String _solution = "";
     String _title = "";
 
     switch (DTitle) {
-      case "Tomato_Yellow_Leaf_Curl_Virus":
+      case "Atopic_Dermatitis_stage_1":
         {
-          _title="Tomato Yellow Leaf Curl Virus";
+          _title="Atopic_Dermatitis_stage_1";
           _solution="ACROBAT FUNGICIDE";
         }
         break;
-      case "Bacterial_spot":
+      case "Atopic_Dermatitis_stage_2":
         {
-          _title="Bacterial spot";
+          _title="Atopic_Dermatitis_stage_2";
           _solution="ANTRACOL 500GMS";
         }
         break;
-      case "Leaf_Mold":
+      case "Atopic_Dermatitis_stage_3":
         {
-          _title="Leaf Mold";
+          _title="Atopic_Dermatitis_stage_3";
           _solution="Daconil® Fungicide Concentrate";
         }
         break;
